@@ -5,7 +5,7 @@ const dotenv = require('dotenv');
 // Load environment variables from .env file
 dotenv.config();
 
-const connection = new web3.Connection('https://devnet.sonic.game', 'confirmed');
+const connection = new web3.Connection('https://odyssey.sonic.game', 'confirmed');
 
 const privateKey = process.env.PRIVATE_KEY;
 const recipientAddress = process.env.RECIPIENT_ADDRESS;
